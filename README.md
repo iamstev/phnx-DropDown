@@ -12,6 +12,7 @@ copying and pasting, or writting custom loops every time you need a new drop dow
     $month->id = 'month';       // optional - sets the ID attribute on the SELECT tag  
     $month->classes = 'blue'    // optional - sets the CLASS attribue on the SELECT tag, seperate multiple classes with space  
     $month->style = '1thru12';  // required - chooses the style, in this case 1 though 12  
+    $month->selected = '8'      // optional - sets the option with this value to SELECTED
     $month->display();          // prints the SELECT tag with its options
 
 ## Current Styles
