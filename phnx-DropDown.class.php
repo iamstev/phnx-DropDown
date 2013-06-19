@@ -1,10 +1,12 @@
 <?php
+	namespace phnx\DropDown;
 	class DropDown{
 		var $classes;
 		var $id;
 		var $name;
 		var $style;
 		var $disabled;
+		var $selected;
 		
 		function listoptions(){
 		
